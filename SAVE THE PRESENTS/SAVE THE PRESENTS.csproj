@@ -1,0 +1,35 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <RootNamespace>SAVE_THE_PRESENTS</RootNamespace>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="ASSETS\background.jpg" />
+    <None Remove="ASSETS\netLeft.png" />
+    <None Remove="ASSETS\netRight.png" />
+    <None Remove="ASSETS\present_01.png" />
+    <None Remove="ASSETS\present_02.png" />
+    <None Remove="ASSETS\present_03.png" />
+    <None Remove="ASSETS\present_04.png" />
+    <None Remove="ASSETS\present_05.png" />
+    <None Remove="ASSETS\present_06.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="ASSETS\netLeft.png" />
+    <Resource Include="ASSETS\netRight.png" />
+    <Resource Include="ASSETS\present_01.png" />
+    <Resource Include="ASSETS\present_02.png" />
+    <Resource Include="ASSETS\present_03.png" />
+    <Resource Include="ASSETS\present_04.png" />
+    <Resource Include="ASSETS\present_05.png" />
+    <Resource Include="ASSETS\present_06.png" />
+  </ItemGroup>
+
+</Project>

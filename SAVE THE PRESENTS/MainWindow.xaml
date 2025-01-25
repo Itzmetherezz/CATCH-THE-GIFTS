@@ -1,0 +1,22 @@
+﻿<Window x:Class="SAVE_THE_PRESENTS.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SAVE_THE_PRESENTS"
+        mc:Ignorable="d"
+        Title="Save the Gifts" Height="700" Width="525" ResizeMode="CanMinimize" >
+    
+    <Grid>
+        <Canvas Name="mycanvas" Background="Orange" Focusable="True" MouseMove="mycanvas_MouseMove">
+
+            <Label Name="scoretext" FontFamily="Comic Sans MS" FontSize="18" FontWeight="ExtraBlack">Score: 0</Label>
+            <Label Name="missedText" FontFamily="Comic Sans MS" FontSize="18" FontWeight="ExtraBlack" Canvas.Left="391">Missed: 0 </Label>
+
+            <Rectangle Name="player" Width="80" Height="80" Canvas.Left="214" Canvas.Top="591" Fill="Red"/>
+            
+
+        </Canvas>
+               
+    </Grid>
+</Window>
